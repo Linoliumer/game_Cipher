@@ -18,7 +18,7 @@ def xForTen(num, x1 = 2): #Перевод из двоичной СС в деся
 	return sum_elem
 
 
-def phono(x): #Перевод слова в код Фано.
+def phono(x): #Перевод слова в код по словорю.
 	newWord = ''
 	value_in_phono={
 		'A':'00000','B':'00001','C':'00010','D':'00011',
